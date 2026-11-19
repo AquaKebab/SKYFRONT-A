@@ -1,0 +1,58 @@
+GAME_TITLE = "SKYFRONT: Drone Defense"
+
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+
+# --- Игрок (защитник) ---
+PLAYER_SPEED = 11.0
+PLAYER_SPRINT = 1.6
+PLAYER_ROTATION_SPEED = 100.0   # Q/E, градусов/с
+PLAYER_TURN_SPEED = 720.0       # разворот модели, градусов/с
+PLAYER_JUMP_SPEED = 8.5
+PLAYER_RADIUS = 0.6
+PLAYER_EYE_HEIGHT = 1.7
+PLAYER_PIVOT_HEIGHT = 1.65
+GRAVITY = 22.0
+
+# --- Камера ---
+CAMERA_DISTANCE = 7.0
+CAMERA_MIN_DISTANCE = 2.5
+CAMERA_MAX_DISTANCE = 18.0
+CAMERA_SHOULDER = 0.9           # смещение камеры через плечо
+CAMERA_FOV = 70.0
+CAMERA_NEAR = 0.2
+CAMERA_FAR = 2500.0
+
+MOUSE_SENSITIVITY = 0.15
+MOUSE_MAX_DELTA = 200
+LOOK_MIN_PITCH = -75
+LOOK_MAX_PITCH = 75
+
+# --- Оружие игрока ---
+GUN_FIRE_RATE = 7.0             # выстрелов в секунду
+GUN_MAGAZINE = 30
+GUN_RELOAD_TIME = 1.6
+BULLET_SPEED = 140.0
+BULLET_LIFE = 1.8
+BULLET_DAMAGE = 1.0
+
+# --- Мир ---
+WORLD_LIMIT = 185
+GROUND_SIZE = 1500
+FOG_NEAR = 200.0
+FOG_FAR = 1000.0
+
+# --- Правила игры ---
+BASE_INTEGRITY = 100.0
+DEFENDER_WAVES = 5
+ATTACKER_BUDGET = 12            # сколько дронов у оператора
+LAUNCH_COOLDOWN = 2.5
+
+# --- Автоматические турели (когда играешь за оператора) ---
+TURRET_COUNT = 5
+TURRET_RANGE = 55.0
+TURRET_FIRE_INTERVAL = 0.7
+TURRET_DAMAGE = 0.5
+TURRET_BULLET_SPEED = 80.0
+TURRET_SPREAD = 0.07
+TURRET_TURN_SPEED = 120.0
